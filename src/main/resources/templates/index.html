@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Actual Application</title>
+</head>
+<body>
+
+<form action="/submit" method="post">
+    <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
+    <input type="submit" value="Transfer Money">
+</form>
+
+</body>
+</html>
