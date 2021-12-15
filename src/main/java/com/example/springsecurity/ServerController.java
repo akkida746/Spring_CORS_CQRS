@@ -10,4 +10,9 @@ public class ServerController {
     public String greeting(){
         return "Greeting!";
     }
+
+    @GetMapping("/main")
+    public String main(){
+        return "main.html";
+    }
 }
